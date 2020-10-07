@@ -1,0 +1,72 @@
+html,
+.MuiScopedCssBaseline,
+.MuiScopedCssBaseline-root {
+  background-color: white;
+  color: black;
+  font-family: "Times New Roman", Times, serif !important;
+  overflow-x: hidden;
+}
+
+h1,
+a {
+  color: black !important;
+  margin-top: 5%;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, #d2dcdbd8, black, #d2dcdbd8);
+  
+  margin-bottom: 3%;
+  background-color: transparent !important;
+
+}
+
+.MuiTypography-root,
+.MuiTypography-h2,
+.MuiTypography-h5 {
+  /* color: white !important; */
+  font-family: "Times New Roman", Times, serif !important;
+  /* background-color: black !important; */
+}
+
+.MuiGrid-root {
+  background-color: inherit;
+}
+
+.project-title {
+  margin-left: 1%;
+  margin-top: 10%;
+  font-weight: lighter;
+}
+
+.name {
+  margin-left: 1%;
+  font-weight: lighter;
+}
+
+.iconImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: 10%;
+}
+
+.picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+.nav-link {
+  color: white !important;
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif !important;
+}
+
+Footer {
+  margin-top: 5%;
+}
