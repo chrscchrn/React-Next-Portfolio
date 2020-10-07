@@ -37,7 +37,7 @@ export default function Contact() {
         alignItems="center"
         >
           <Grid item sm={12}>
-            <h1 className="project-title">Request Info</h1>
+            <h1 className="project-title">Request Info or Send a Message</h1>
             <hr/>
           </Grid>
         </Grid>
@@ -70,32 +70,22 @@ export default function Contact() {
         alignItems="center" 
         >
           <Grid item sm={2}>    
-            <ContactIcons src="/icons/phone.png" alt="Contact Me Via Phone" title="832-794-2949" />
+            <ContactIcons  src="/icons/phone.png" alt="Contact Me Via Phone" title="832-794-2949" />
+            
           </Grid>
           <Grid item sm={2}>    
-            <ContactIcons src="/icons/email.png" alt="email"/>
+            <ContactIcons src="/icons/email.png" alt="email" title="cochranschris@gmail.com"/>
           </Grid>
           <Grid item sm={2}>    
-            <ContactIcons src="/icons/linkedin-logo.png" alt="linkedIn"/>
+            <ContactIcons src="/icons/linkedin-logo.png" alt="linkedIn" link="https://www.linkedin.com/in/christophercochran281/" title="LinkedIn"/>
           </Grid>
           <Grid item sm={2}>    
-            <ContactIcons src="/icons/github-icon.png" alt="github"/>
+            <ContactIcons src="/icons/github-icon.png" alt="github" link="https://github.com/chrscchrn" title="Github"/>
           </Grid>
           <Grid item sm={2}>    
-            <ContactIcons src="/icons/resume.png" alt="resume"/>
+            <ContactIcons src="/icons/resume.png" alt="resume" link="https://github.com/chrscchrn" title="Resume"/>
           </Grid>
         </Grid>
-
-        {/* <Grid 
-        container 
-        spacing={0} 
-        justify="space-around"
-        alignItems="center"
-        >
-          <Grid item sm={12}>
-            <hr/>
-          </Grid>
-        </Grid> */}
 
         <Footer />
       </div>

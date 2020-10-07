@@ -25,7 +25,7 @@ export default function Home() {
       <div className={classes.root}>
 
         <Grid container spacing={0} >
-          <Navbar /> 
+          <Navbar />
         </Grid>
         
         <Grid container spacing={0} >

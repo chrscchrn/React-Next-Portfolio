@@ -31,13 +31,14 @@ export default function Navbar() {
         setAnchorEl(null);
     };
 
+    // style={{fontFamily: "sans-serif"}}
     return(
         <>
             <Grid item sm={6}>
-                <h2 className="name">CHRISTOPHER COCHRAN</h2>
+                <h2 className="name" style={{fontFamily: "sans-serif"}}>CHRISTOPHER COCHRAN</h2>
             </Grid>
             <Grid item sm={6} style={{ textAlign: "end" }}>
-                <IconButton color="white" aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}>
+                <IconButton aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}>
                     <MenuSharpIcon style={{ color: "black" }} fontSize="large"/>
                 </IconButton>
                 <Menu
@@ -48,7 +49,7 @@ export default function Navbar() {
                     onClose={handleClose}
                     classes={{paper: classes.menu}}
                 >
-                    <MenuItem onClick={handleClose}><Link href="/"><a className="nav-link">PORTFOLIO</a></Link></MenuItem>
+                    <MenuItem onClick={handleClose} ><Link href="/"><a className="nav-link" >PORTFOLIO</a></Link></MenuItem>
                     <MenuItem onClick={handleClose}><Link href="/about"><a className="nav-link">ABOUT</a></Link></MenuItem>
                     <MenuItem onClick={handleClose}><Link href="/contact"><a className="nav-link">CONTACT</a></Link></MenuItem>
                 </Menu>
