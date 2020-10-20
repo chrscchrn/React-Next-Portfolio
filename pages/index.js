@@ -40,14 +40,14 @@ export default function Home() {
 
         <Grid container spacing={0} >
           <ImageCard 
-          image="/images/note.png" 
-          alt="Notepad, an organizational app for students."
-          link="https://oscarcat.herokuapp.com/"
+            image="/images/note.png" 
+            alt="Notepad, an organizational app for students."
+            link="https://oscarcat.herokuapp.com/"
           />
           <ImageCard
-          image="/images/newsfeed.png"
-          alt="Oscara, the social media website."
-          link="https://oscara.herokuapp.com/"
+            image="/images/newsfeed.png"
+            alt="Oscara, the social media website."
+            link="https://oscara.herokuapp.com/"
           />
         </Grid>
 
@@ -56,14 +56,14 @@ export default function Home() {
 
         <Grid container spacing={0} >
           <ImageCard 
-          image="/images/movieWide.png" 
-          alt="Not Another Movie Database!"
-          link="https://chrscchrn.github.io/NotAnotherMovieDb/"
+            image="/images/movieWide.png" 
+            alt="Not Another Movie Database!"
+            link="https://chrscchrn.github.io/NotAnotherMovieDb/"
           />
           <ImageCard
-          image="/images/port (2).png" 
-          alt="React Portfolio"
-          link="/about"
+            image="/images/port (2).png" 
+            alt="React Portfolio"
+            link="/about"
           />
         </Grid>
 
@@ -71,8 +71,16 @@ export default function Home() {
         <hr/>
 
         <Grid container spacing={0} >
-          <ImageCard/>
-          <ImageCard/>
+          <ImageCard
+            image="/images/backend-development.jpeg" 
+            alt="Back-end & CLI!"
+            link="https://github.com/chrscchrn"
+          />
+          <ImageCard
+            image="/images/backend-development.jpeg" 
+            alt="Back-end & CLI"
+            link="https://github.com/chrscchrn"
+          />
         </Grid>
 
         <Footer/>
