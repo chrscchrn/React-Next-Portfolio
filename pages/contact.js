@@ -6,7 +6,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 import Jumbotron from '../components/jumbotron';
-import ContactInput from '../components/contactinput';
+// import ContactInput from '../components/contactinput';
 import ContactIcons from '../components/contacticons';
 
 const useStyles = makeStyles({
@@ -30,7 +30,7 @@ export default function Contact() {
           </Grid>
         </Grid>
 
-        <Grid 
+        {/* <Grid 
         container 
         spacing={0} 
         justify="space-around"
@@ -49,7 +49,7 @@ export default function Contact() {
         alignItems="center" 
         >
           <ContactInput />
-        </Grid>
+        </Grid> */}
 
         <Grid 
         container 
