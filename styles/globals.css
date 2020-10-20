@@ -67,6 +67,23 @@ hr {
   font-family: "Times New Roman", Times, serif !important;
 }
 
+#hover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color:#1f5e63;;
+}
+
+.picContainer:hover #hover {
+  opacity: 1;
+}
+
 Footer {
   margin-top: 5%;
 }

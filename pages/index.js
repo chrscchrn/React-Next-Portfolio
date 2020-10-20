@@ -6,6 +6,7 @@ import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 import Jumbotron from '../components/jumbotron';
 import ImageCard from '../components/imageCard';
+import { Typography } from '@material-ui/core';
 
 
 const useStyles = makeStyles({
@@ -45,6 +46,8 @@ export default function Home() {
           />
           <ImageCard
           image="/images/newsfeed.png"
+          alt="Oscara, the social media website."
+          link="https://oscara.herokuapp.com/"
           />
         </Grid>
 

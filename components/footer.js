@@ -14,7 +14,7 @@ export default function Footer() {
     return(
         <div className={classes.footer}>
             <footer className="footer">
-                <p>DEVELOPED WITH REACT-NEXT-EXPRESS & DESIGNED WITH MATERIAL UI</p>
+                <p>Developed With React-Next-Express & Designed With Material UI</p>
             </footer>
         </div>     
     );
