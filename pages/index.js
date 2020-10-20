@@ -44,7 +44,7 @@ export default function Home() {
           link="https://oscarcat.herokuapp.com/"
           />
           <ImageCard
-          image="/images/coming-soon.png"
+          image="/images/newsfeed.png"
           />
         </Grid>
 
