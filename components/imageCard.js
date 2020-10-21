@@ -43,13 +43,13 @@ export default function imageCard(props) {
                                 
                             />
                             <div id="hover">
-                                <Typography className={classes.hoverText} variant="h4">
+                                <Typography className="hoverText" variant="h4">
                                     {props.alt}
                                 </Typography>
-                                <Typography className={classes.hoverText} variant="h6">
+                                <Typography className="hoverText" variant="h6">
                                     {props.description}
                                 </Typography>
-                                <Typography className={classes.hoverText} variant="subtitle1">
+                                <Typography className="hoverText" variant="subtitle1">
                                     *Click to go to deployed site
                                 </Typography>
                             </div>

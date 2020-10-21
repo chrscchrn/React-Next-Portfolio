@@ -88,3 +88,11 @@ hr {
 Footer {
   margin-top: 5%;
 }
+
+.hoverText {
+  color: white;
+  text-align: center;
+  position: relative;
+  bottom: -20%;
+  margin: 20;
+}
