@@ -83,7 +83,7 @@ export default function Contact() {
             <ContactIcons src="/icons/github-icon.png" alt="github" link="https://github.com/chrscchrn" title="Github"/>
           </Grid>
           <Grid item sm={2}>    
-            <ContactIcons src="/icons/resume.png" alt="resume" link="https://github.com/chrscchrn" title="Resume"/>
+            <ContactIcons src="/icons/resume.png" alt="resume" link="https://github.com/chrscchrn/React-Next-Portfolio/blob/main/public/ten-twenty-resume.pdf" title="Resume"/>
           </Grid>
         </Grid>
 

@@ -77,7 +77,8 @@ hr {
   width: 100%;
   opacity: 0;
   transition: 0.5s ease;
-  background-color:#1f5e63;;
+  background-color:#1f3763;
+  
 }
 
 .picContainer:hover #hover {

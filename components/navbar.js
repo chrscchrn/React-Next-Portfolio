@@ -49,9 +49,9 @@ export default function Navbar() {
                     onClose={handleClose}
                     classes={{paper: classes.menu}}
                 >
-                    <MenuItem onClick={handleClose} ><Link href="/"><a className="nav-link" >PORTFOLIO</a></Link></MenuItem>
-                    <MenuItem onClick={handleClose}><Link href="/about"><a className="nav-link">ABOUT</a></Link></MenuItem>
-                    <MenuItem onClick={handleClose}><Link href="/contact"><a className="nav-link">CONTACT</a></Link></MenuItem>
+                    <MenuItem onClick={handleClose} ><Link href="/"><a className="nav-link" >Collection</a></Link></MenuItem>
+                    <MenuItem onClick={handleClose}><Link href="/about"><a className="nav-link">About</a></Link></MenuItem>
+                    <MenuItem onClick={handleClose}><Link href="/contact"><a className="nav-link">Contact</a></Link></MenuItem>
                 </Menu>
             </Grid>
         </>

@@ -9,6 +9,9 @@ const useStyles = makeStyles((theme) => ({
       margin: theme.spacing(),
     },
   },
+  address: {
+    textAlign: "center",
+  }
 }));
 
 export default function ContactIcons(props) {
@@ -18,7 +21,7 @@ export default function ContactIcons(props) {
     return (
         <>  
           <img className="iconImage" src={props.src} alt={props.alt} />
-          <Typography variant="h6">{!props.link ? props.title : <a href={props.link}>{props.title}</a>}</Typography>
+          <Typography className={classes.address} variant="h6">{!props.link ? props.title : <a href={props.link}>{props.title}</a>}</Typography>
         </>
     );
 };

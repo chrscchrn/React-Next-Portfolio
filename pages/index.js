@@ -31,7 +31,7 @@ export default function Home() {
         
         <Grid container spacing={0} >
           <Grid item sm={12}>
-            <Jumbotron title="Portfolio" subTitle="Collection of front, back, and full-stack projects I've worked on"/>
+            <Jumbotron title="Collection" subTitle="A few front, back, and full-stack projects I've worked on"/>
           </Grid>
         </Grid>
 
@@ -41,13 +41,15 @@ export default function Home() {
         <Grid container spacing={0} >
           <ImageCard 
             image="/images/note.png" 
-            alt="Notepad, an organizational app for students."
+            alt="Notepad"
             link="https://oscarcat.herokuapp.com/"
+            description="Notepad is an organizational website for students and researchers. Search for articles, takes notes, save them together."
           />
           <ImageCard
             image="/images/newsfeed.png"
-            alt="Oscara, the social media website."
+            alt="Oscara"
             link="https://oscara.herokuapp.com/"
+            description="Oscara is a social network where users can make a profile, post status updates, and like user content."
           />
         </Grid>
 
@@ -59,15 +61,17 @@ export default function Home() {
             image="/images/movieWide.png" 
             alt="Not Another Movie Database!"
             link="https://chrscchrn.github.io/NotAnotherMovieDb/"
+            description="A not-so-random movie generator which presents a movie based on user preferences."
           />
           <ImageCard
             image="/images/port (2).png" 
             alt="React Portfolio"
             link="/about"
+            description="Personal portfolio made with create-next-app"
           />
         </Grid>
 
-        <h1 className="project-title">Back-End & CLI</h1>
+        {/* <h1 className="project-title">Back-End & CLI</h1>
         <hr/>
 
         <Grid container spacing={0} >
@@ -81,7 +85,7 @@ export default function Home() {
             alt="Back-end & CLI"
             link="https://github.com/chrscchrn"
           />
-        </Grid>
+        </Grid> */}
 
         <Footer/>
 

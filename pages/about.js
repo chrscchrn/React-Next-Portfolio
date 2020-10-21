@@ -58,7 +58,13 @@ export default function About() {
 
           <Grid item sm={6}>
             <Typography variant="body1" style={{fontSize: "1.35rem"}}>
-              Full-stack developer utilizing social science background to create a lasting impression on the user. A recent graduate of Rice University with a certificate in Full-Stack Development with polished skills in JavaScript, HTML/CSS, Node.js, and creative interface design. Recently applied front- and back-end skillset with other team members to develop multiple projects. Also a graduate of the University of Houston, with a Bachelor of Science in Economics. Intrigued about utilizing developer fundamentals to build creative user interfaces and to showcase elevated applications of technology. Excited to use a holistic approach to development and social science background to augment a driven engineering team.
+              Full-stack developer utilizing social science background to create a lasting impression on the user. 
+              A recent graduate of Rice University with a certificate in Full-Stack Development with polished skills 
+              in JavaScript, React, Node.js, and Material UI. Recently solo developed to create a social media website. 
+              Graduated from the University of Houston May of 2020 
+              with a Bachelor of Science in Economics. Intrigued about utilizing developer fundamentals to build creative 
+              functionality to showcase elevated applications of technology. Excited to use a holistic approach to 
+              development and social science background to augment a driven engineering team.
             </Typography>
           </Grid>
         </Grid>
