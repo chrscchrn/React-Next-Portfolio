@@ -60,10 +60,10 @@ export default function About() {
             <Typography variant="body1" style={{fontSize: "1.35rem"}}>
               Full-stack developer utilizing social science background to create a lasting impression on the user. 
               A recent graduate of Rice University with a certificate in Full-Stack Development with polished skills 
-              in JavaScript, React, Node.js, and Material UI. Recently solo developed to create a social media website. 
-              Graduated from the University of Houston May of 2020 
-              with a Bachelor of Science in Economics. Intrigued about utilizing developer fundamentals to build creative 
-              functionality to showcase elevated applications of technology. Excited to use a holistic approach to 
+              in JavaScript, React, Node.js, and Material UI. Recently solo developed a social media website, Oscara. 
+              Graduated from the University of Houston May of 2020 with a Bachelor of Science in Economics. 
+              Intrigued about utilizing developer fundamentals to implement creative ideas
+               showcasing elevated applications of technology. Excited to use a holistic approach to 
               development and social science background to augment a driven engineering team.
             </Typography>
           </Grid>
