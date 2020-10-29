@@ -9,7 +9,7 @@ html,
 
 h1,
 a {
-  color: black !important;
+  /* color: black !important; */
   margin-top: 5%;
 }
 
@@ -82,7 +82,7 @@ hr {
 }
 
 .picContainer:hover #hover {
-  opacity: 1;
+  opacity: .98;
 }
 
 Footer {

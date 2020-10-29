@@ -4,7 +4,7 @@ import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import Grid from '@material-ui/core/Grid';
 import CardMedia from '@material-ui/core/CardMedia';
-import { Typography } from '@material-ui/core';
+import { Link, Typography } from '@material-ui/core';
 
 // import Typography from '@material-ui/core/Typography';
 // import CardContent from '@material-ui/core/CardContent';
@@ -16,7 +16,7 @@ const useStyles = makeStyles({
         objectFit: "cover"
     },
     hoverText: {
-        color: "white",
+        color: "white !important",
         textAlign: "center",
         position: "relative",
         bottom: "-20%",
@@ -27,13 +27,16 @@ const useStyles = makeStyles({
 export default function imageCard(props) {
 
     const classes = useStyles();
+
+    function linkClick(event) {
+        event.preventDefault();
+    }
   
     return (
         <>
             <Grid item sm={6}>
                 <Card square>
                     <CardActionArea className="picContainer">
-                        <a href={props.link}>
                             <CardMedia
                                 className={classes.img}
                                 component="img"
@@ -49,11 +52,17 @@ export default function imageCard(props) {
                                 <Typography className="hoverText" variant="h6">
                                     {props.description}
                                 </Typography>
-                                <Typography className="hoverText" variant="subtitle1">
-                                    *Click to go to deployed site
+                                <Typography className="hoverText" variant="h6">
+                                    <a href={props.link} onClick={linkClick} style={{color: "white !important"}}>
+                                        Live Application
+                                    </a>
+                                </Typography>
+                                <Typography className="hoverText" variant="h6">
+                                    <a href={props.github} onClick={linkClick} style={{color: "white !important"}}>
+                                        Github Repository
+                                    </a>
                                 </Typography>
                             </div>
-                        </a>                       
                     </CardActionArea>
                 </Card>
             </Grid>

@@ -44,12 +44,14 @@ export default function Home() {
             alt="Notepad"
             link="https://oscarcat.herokuapp.com/"
             description="Notepad is an organizational website for students and researchers. Search for articles, takes notes, save them together."
+            github="https://github.com/chrscchrn/Notepad--"
           />
           <ImageCard
             image="/images/newsfeed.png"
             alt="Oscara"
             link="https://oscara.herokuapp.com/"
             description="Oscara is a social network where users can make a profile, post status updates, and like user content."
+            github="https://github.com/chrscchrn/Oscara_Social_Network"
           />
         </Grid>
 
@@ -62,12 +64,14 @@ export default function Home() {
             alt="Not Another Movie Database!"
             link="https://chrscchrn.github.io/NotAnotherMovieDb/"
             description="A not-so-random movie generator which presents a movie based on user preferences."
+            github="https://github.com/chrscchrn/NotAnotherMovieDb/"
           />
           <ImageCard
             image="/images/port (2).png" 
             alt="React Portfolio"
             link="/about"
             description="Personal portfolio made with create-next-app"
+            github="https://github.com/chrscchrn/React-Next-Portfolio"
           />
         </Grid>
 
