@@ -83,7 +83,7 @@ export default function Contact() {
             <ContactIcons src="/icons/github-icon.png" alt="github" link="https://github.com/chrscchrn" title="Github"/>
           </Grid>
           <Grid item sm={2}>    
-            <ContactIcons src="/icons/resume.png" alt="resume" link="https://docs.google.com/document/d/1HhcqfKOG7FKA2mk4Pinvmbi0OXaBFTSShFAU1KT_Xe0/edit?usp=sharing" title="Resume"/>
+            <ContactIcons src="/icons/resume.png" alt="resume" link="https://drive.google.com/file/d/1VZxeXqUWNV5VMHOQkh98OlHPIV-lc_HC/view?usp=sharing" title="Resume"/>
           </Grid>
         </Grid>
 
