@@ -70,10 +70,10 @@ export default function About() {
         </Grid>
         
         <Grid 
-        container 
-        spacing={0} 
-        justify="space-around"
-        alignItems="center"
+          container 
+          spacing={0} 
+          justify="space-around"
+          alignItems="center"
         >
           <Grid item sm={12}>
             <h1 className="project-title">My Skills</h1>
@@ -82,10 +82,10 @@ export default function About() {
         </Grid>
 
         <Grid 
-        container 
-        direction="row"
-        justify="space-around"
-        alignItems="center"
+          container 
+          direction="row"
+          justify="space-around"
+          alignItems="center"
          >
           <Grid item sm={2}>
             <IconImage src="\icons\nodejs.png" alt="Node"/>
